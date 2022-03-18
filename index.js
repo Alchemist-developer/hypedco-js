@@ -63,7 +63,7 @@ const deletaRoupa = id => {
     console.log(roupas);
 }
 
-deletaRoupa(999999);
+// deletaRoupa();
 
 const buscaRoupas = campo => {
     const novaRoupa = roupas.filter(item => item.title.toLowerCase().includes(campo.toLowerCase()));
@@ -113,4 +113,4 @@ const atualizaRoupas = (id, roupa) => {
     console.log(roupas);
 }
 
-atualizaRoupas(999999); 
+// atualizaRoupas(); 
