@@ -77,8 +77,8 @@ const buscaRoupas = campo => {
     console.log(novaRoupa);
 }
 
-searchRoupas('hyped');
-searchRoupas('autentic');
+buscaRoupas('hyped');
+buscaRoupas('autentic');
 
 const atualizaRoupas = (id, roupa) => {
     let atualizado = false;
