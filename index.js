@@ -23,7 +23,7 @@ roupas = [
 
 // 4
 const addRoupa = (titulo, tamanho, tecido, video, infantil) => {
-    lista.push({
+    roupas.push({
         id: Math.random().toString().substr(2, 6),
         titulo,
         tamanho,
